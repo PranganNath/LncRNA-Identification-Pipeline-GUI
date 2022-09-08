@@ -1,0 +1,7 @@
+Please follow the instructions to install all dependencies for the ETENLNC pipeline.
+* Please make sure you have a working internet connection and super user access to your system 
+* Please make sure the linux aptitude (apt) repository is updated by running "sudo apt-get update" 
+* You may be asked for user permission to install dependencies. Please enter 'y' when prompted.
+* You may be asked for your system password. Please provide wherever required. 
+* The installation may take some time. Please be patient
+-Team EVOLoMICS
