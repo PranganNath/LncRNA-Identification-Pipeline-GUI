@@ -88,6 +88,11 @@ threads=`zenity --entry \
        --width 500 \
        --title "Enter No. of Threads" \
        --text "Please specify the maximum number of processor threads to use for this run."`
+       
+200nt=`zenity --file-selection \
+       --title="Please select 200nt filter perl script (.pl)" \
+       --filename "/home/${USER}/" \
+       --file-filter='*.pl'`	
 
 #####################################################################################################################################################################
 #####################################################################################################################################################################
@@ -348,7 +353,7 @@ cp ~/pipeline/200ntfilter.pl $filters
 cp $classes/selected.fa $filters
 cp $gffcompare/gffannotated.gtf $filters
 cp $classes/ref.fa $filters
-perl 200ntfilter.pl 200 selected.fa > gt200.fa
+perl $200nt 200 selected.fa > gt200.fa
 
 # =================================================================
 echo "55"
