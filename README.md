@@ -1,9 +1,9 @@
 # LncRNA-Identification-Pipeline-GUI
 This is under development pipeline for analysis of LncRNA from RNA-Seq data, now with zenity GUI
 
-<!-- MANUAL -->
+## MANUAL
 
-**1. COMPONENTS**
+### 1. COMPONENTS
 - FASTP: For pre-processing of FASTQ files. Recommended version: 0.20.0 or above
 - FASTQC: For quality checking of FASTQ files. Recommended version: 0.11.9 or above
 - HISAT2: For indexing of reference genome and alignment of processed reads to reference genome. Recommended version: 2.1.0 or above
@@ -24,7 +24,7 @@ This is under development pipeline for analysis of LncRNA from RNA-Seq data, now
 - RNAFOLD: For predicting secondary structures of transcripts. Recommended version: 1.99.3 or above
 - SEEKR: For functional annotation of novel transcripts. Recommended version: 
 
-**2. INSTALLING THE PIPELINE**
+### 2. INSTALLING THE PIPELINE
 - Make sure you have zenity installed in your system. Currently the GUI version only supports the use of zenity as a GUI platform.
 - Download the files **GUI_Alpha_6_installer.sh** and **GUI_Alpha_6_installer.txt** into a working directory.
 - Run the script **GUI_Alpha_6_installer.sh** by opening your terminal in the working directory and entering 
@@ -39,7 +39,7 @@ This is under development pipeline for analysis of LncRNA from RNA-Seq data, now
 - All the software and packages required for running the pipeline will be installed in your system.
 - Please refer to the RUNNING THE PIPELINE section for help regarding running the pipeline.
 
-**3. RUNNING THE PIPELINE**
+### 3. RUNNING THE PIPELINE
 - Make sure you have zenity installed in your system. Currently the GUI version only supports the use of zenity as a GUI platform.
 - Download the files **GUI_Alpha_6.sh** into your working directory, as specified earlier.
 - Run the script 'GUI_Alpha_6.sh' by opening your terminal in the working directory and entering 
@@ -55,7 +55,7 @@ This is under development pipeline for analysis of LncRNA from RNA-Seq data, now
 - After the completion of the run, a folder with the run name assigned by you, will be created in your $HOME directory. All the generated files can be found here.
 - Please refer to the RESULTS section for help regarding interpretation of the pipeline results.
 
-**4. INPUT FILES**
+### 4. INPUT FILES
 - Raw reads (.FASTQ.gz)
 - Reference genome (.Fa)
 - Reference annotation (.GTF)
@@ -63,7 +63,7 @@ This is under development pipeline for analysis of LncRNA from RNA-Seq data, now
 - Known LncRNAs (.Fa)
 - Binaries directory (bin)
 
-**5. RESULTS**
+### 5. RESULTS
 - The results will be generated in the $run directory, under $HOME.
 - The following directories will be created:
 
