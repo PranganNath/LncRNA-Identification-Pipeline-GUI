@@ -30,6 +30,7 @@ MANUAL
 - Make sure you have zenity installed in your system. Currently the GUI version only supports the use of zenity as a GUI platform.
 - Download the files **GUI_Alpha_6_installer.sh** and **GUI_Alpha_6_installer.txt** into a working directory.
 - Run the script **GUI_Alpha_6_installer.sh** by opening your terminal in the working directory and entering 
+
   ```
   bash GUI_Alpha_6_installer.sh
   ```
@@ -44,6 +45,7 @@ MANUAL
 - Make sure you have zenity installed in your system. Currently the GUI version only supports the use of zenity as a GUI platform.
 - Download the files **GUI_Alpha_6.sh** into your working directory, as specified earlier.
 - Run the script 'GUI_Alpha_6.sh' by opening your terminal in the working directory and entering 
+
   ```
   bash GUI_Alpha_6.sh
   ```
