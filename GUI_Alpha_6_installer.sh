@@ -3,7 +3,7 @@
 #installer.sh
 
 directory=`pwd`
-file=$directory/installer.txt
+file=$directory/GUI_Alpha_6_installer.txt
 
 zenity --text-info \
        --title "ETENLNC INSTALLER" \
