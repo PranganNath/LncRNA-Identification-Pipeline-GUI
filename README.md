@@ -1,9 +1,7 @@
 # LncRNA-Identification-Pipeline-GUI
 This is under development pipeline for analysis of LncRNA from RNA-Seq data, now with zenity GUI
 
-
-
-MANUAL
+**MANUAL**
 
 **1. COMPONENTS**
 - FASTP: For pre-processing of FASTQ files. Recommended version: 0.20.0 or above
@@ -49,7 +47,8 @@ MANUAL
   ```
   bash GUI_Alpha_6.sh
   ```
-- The GUI should guide you along with selection of input files and binaries.
+- The GUI will guide you along with selection of input files and binaries.
+- Please do not repeat any steps for selection of input files. 
 - The progress bar will give you a graphical overview of the pipeline progress.
 - A complete run of the pipeline with 3 human paired-ended case-control samples will take around 8 hours on a 20 threads machine. Please be patient.
 - The shell, alternatively will give you the details of the tasks running at the time.
