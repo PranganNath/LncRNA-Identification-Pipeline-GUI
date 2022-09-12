@@ -1,7 +1,7 @@
 # LncRNA-Identification-Pipeline-GUI
 This is under development pipeline for analysis of LncRNA from RNA-Seq data, now with zenity GUI
 
-**MANUAL**
+>**MANUAL**
 
 **1. COMPONENTS**
 - FASTP: For pre-processing of FASTQ files. Recommended version: 0.20.0 or above
