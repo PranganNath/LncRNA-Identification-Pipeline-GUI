@@ -22,7 +22,7 @@ This is under development pipeline for analysis of LncRNA from RNA-Seq data, now
 - miRanda: For predicting LncRNA-miRNA interactions. Recommended version: 3.3a or above
 - CAPSULE-LPI: For predicting LncRNA-protein interactions. Recommended version: 1.0 and above
 - RNAFOLD: For predicting secondary structures of transcripts. Recommended version: 1.99.3 or above
-- SEEKR: For functional annotation of novel transcripts. Recommended version: 
+- SEEKR: For functional annotation of novel transcripts. Recommended version: 1.0 or above
 
 ### 2. INSTALLING THE PIPELINE
 - Make sure you have zenity installed in your system. Currently the GUI version only supports the use of zenity as a GUI platform.
